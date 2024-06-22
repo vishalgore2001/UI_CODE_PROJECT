@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contenar{
+    width: 60%;
+    margin: auto;
+    
+    min-height: 100px;
+}
+.main_header_div{
+    width: 100%;
+    height: 60px;
+    margin-left: 3px;
+}
+.main_header_div .logo{
+    width: 27%;
+    height: 60px;
+    background-color: #5982BA;
+    float: left;
+margin-right: 10px;
+
+}
+.main_header_div .menu{
+    width: 40%;
+    height: 60px;
+    background-color: #5982BA;
+    float: left;
+    margin-right: 10px;
+    padding-top: 15px;
+    
+}
+.main_header_div .link{
+    width: 30%;
+    height: 60px;
+    float: left;
+    background-color: #5982BA;
+}
+.logo h1{
+    padding: 10px;
+
+}
+.menu a{
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.menu a:hover{
+    background-color: tomato;
+
+}
+.link img{
+    width: 70px;
+    padding: 25px;
+
+}
+
+.slider{
+    margin-top: 5px;
+    width: 100%;
+    min-height: 200px;
+
+}
+.slider .ism-slider img{
+    width: 100%;
+border-radius: 10px;
+}
+.main_product_div{
+    width: 100%;
+    min-height: 100px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.main_product_div .prod1{
+    width: 32%;
+    min-height: 100px;
+    float: left;
+
+}
+.main_product_div .prod1:nth-child(2){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.prod1 img {
+    width: 100%;
+    border-radius: 10px;
+}
+.prod1 h5{
+    color: rgb(14, 3, 14);
+    text-align: center;
+    padding: 10px;
+}
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    margin-top: 5px;
+    padding-top: 20px;
+    background-color: rgb(231, 153, 153);
+    border-radius: 10px;
+}
+.footer p{
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+}
+.box{
+    width: 800px;
+    margin: auto;
+    height: 300px;
+    border: 1px solid #000;
+}
+table, td, th {  
+    border: 1px solid #0b0a0a;
+  }
+  table tr{
+    height: 60px;
+  }
+  table td{
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(230, 203, 167);
+
+  }
+  
+  
+ 
+  

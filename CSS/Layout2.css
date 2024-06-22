@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    min-height: 300px;
+    
+    margin: auto;
+}
+.main_header_div{
+    width: 100%;
+    height: 60px;
+}
+.main_header_div .logo{
+    width: 49%;
+    height: 60px;
+    background-color:#D1D4CE ;
+    float: left;
+    border-radius: 10px;
+}
+.main_header_div .menu{
+    width:49%;
+    height: 60px;
+    background-color: #807A67;
+    float: right;
+    padding-top: 18px;
+    border-radius: 10px;
+}
+.logo h1{
+    padding:10px;
+}
+.menu a{
+    padding:15px;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+   
+}
+.slider{
+    width: 100%;
+    min-width: 300px;
+    margin-top: 5px;
+}
+.slider img{
+width: 100%;
+height: 100%;
+border-radius: 10px;
+}
+.main_div_content{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 10px;
+    
+}
+.main_div_content .menubar{
+    width: 35%;
+    height: 300px;
+    background-color: #9BA88A;
+    float: left;
+    border-radius: 10px;
+}
+.main_div_content .con{
+    width: 63%;
+    min-height: 200px;
+    float: right;
+    border-radius: 10px;
+}
+.con p{
+    text-align: justify;
+    padding-right:10px ;
+}
+.con h2{
+    color: #785D43;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #191E16;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.footer p{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 40px;
+}
+
+
+
+
+

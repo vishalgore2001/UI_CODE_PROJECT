@@ -1,0 +1,131 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{
+ width: 100%;
+ margin: auto;
+ min-height: 600px;
+ background-image: url(/Images/bglogin.jpg);
+ background-size: cover;
+ position: relative;
+}
+.main_header{
+    width: 100%;
+    height: 80px;
+    border: 1px solid #000;
+    background-color: #a100ff;
+}
+.main_header .name{
+    width: 48%;
+    float: left;
+}
+
+.name h1{
+    padding: 15px;
+    color: rgb(242, 244, 247);
+}
+
+.main_header .menu{
+    width: 48%;
+    float: right;
+}
+.menu ul{
+    list-style-type: none;
+   width: 100%;
+   padding: 10px;
+}
+.menu ul li{
+    padding: 20px;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #f1e7e7;
+    font-size: large;
+    font-weight: bolder;
+}
+.menu ul li a:hover{
+background-color: rgb(234, 145, 113);
+
+}
+.loginform{
+    width: 400px;
+   min-height: 350px;
+    border: 1px solid #000;
+ margin-top: 5px;
+ position: absolute;
+  top: 30%;
+  left: 35%;
+transform: translate(-50% -50%);
+background-color: #000;
+border-radius: 10px;
+ 
+}
+.loginform .text{
+    width: 100%;
+}
+.text h1{
+    text-align: center;
+    color: aquamarine;
+    font-weight: bold;
+    padding: 10px;
+}
+.loginform input[type=text]{
+    width: 98%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0;
+    margin-top: 10px;
+    
+    
+
+}
+.loginform input[type=password]{
+    width: 98%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    outline: 0;
+}
+
+label{
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    color: aquamarine;
+  margin-left:15px;
+  margin-bottom: 5px;
+ 
+}
+#un{
+    background-image: url(/Images/unameicon);
+    
+}
+button[type=submit]{
+    width:98% ;
+    height: 40px;
+    background-color: blue;
+    margin-top: 25px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: larger;
+    border-radius: 10px;
+    border: 0;
+
+}
+form{
+    padding-left: 3px;
+}
+#ms{
+    font-size: larger;
+    font-weight: bolder;
+    font-style:italic;
+
+    padding: 10px;
+    color: rgb(121, 238, 12);
+    
+}

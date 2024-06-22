@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    min-height:500px;
+    border: 1px solid #000;
+   background-image: url(/Images/background_img_.jpg);
+
+/* background-image: url(/Images/bg3_restorant.jpg); */
+}
+.container .main_header_div{
+    width: 100%;
+    height: 300px;
+}
+.main_header_div .head{
+width: 100%;
+height: 60px;
+background-color: rgb(226, 133, 133);
+}
+.head .logo{
+    width: 35%;
+    height: 70px;
+    float: left;
+}
+.head .link{
+    width: 60%;
+    height: 60px;
+    float: right;
+    padding-top: 20px;
+}
+.logo img{
+    width: 32%;
+    padding-left: 80px;
+    padding-top: 1px;
+    
+}
+.link a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(7, 1, 12);
+    margin: 10px;
+}
+.link a:hover{
+    background-color: aqua;
+}
+.main_header_div .head2{
+    width: 100%;
+    height: 300px;
+    background-image: url(/Images/chineseback.jpg);
+    border: 1px solid #000
+   
+}
+.head2 img {
+    width: 100%;
+    
+}
+.heading{
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.heading h1{
+    color: aliceblue;
+    padding-left: 200px;
+    padding-top: 40px;
+}
+.heading h3{
+    padding-left: 250px;
+    padding-top: 40px;
+    color: aliceblue;
+}
+.main_info1{
+    width: 100%;
+    min-height: 40px;
+    margin-top: 60px;
+    
+}
+.main_prod{
+    width: 80%;
+    margin: auto;
+     min-height: 350px;
+margin-top: 5px;
+padding-left: 90px;
+}
+.main_prod .prod1{
+    width: 30%;
+    float: left;
+    padding: 10px;
+    min-height: 200px;
+    
+}
+.prod1 img{
+    width: 100%;
+    border-radius: 40px;
+}
+.prod1 p{
+    text-align:center;
+    color: aliceblue;
+}
+.prod1 h3{
+    text-align: center;
+    color: rgb(205, 74, 231);
+}
+.main_info1 h2{
+    text-align: center;
+    color: crimson;
+}
+
+
+.main_info2{
+    width: 100%;
+    min-height: 40px;
+    margin-top: 60px;
+    
+}
+.main_prod2{
+    width: 80%;
+    margin: auto;
+     min-height: 200px;
+margin-top: 5px;
+padding-left: 90px;
+/* border: 1px solid #000; */
+padding-top: 15px;
+}
+.main_prod2 .prod2{
+    width: 23%;
+    float: left;
+    padding: 10px;
+    min-height: 200px;
+    
+}
+.prod2 img{
+    width: 100%;
+    border-radius: 40px;
+}
+.prod2 p{
+    text-align:center;
+}
+.prod2 h3{
+    text-align: center;
+    color: rgb(205, 74, 231);
+}
+ h2{
+    text-align: center;
+    color: rgb(231, 15, 87);
+}
+
+/* footer part */
+
+.footer{
+    width:100%;
+    min-height: 500px;
+    background-color: #000;
+}
+
+
+.footer .part1{
+    margin-left: 10px;
+    padding-left: 0px;
+    width: 49%;
+    height: 450px;
+    float: left;
+    border: 1px solid #000;
+}
+
+
+
+
+
+
+.footer .part2{
+    margin-right: 10px;
+    width: 49%;
+    height: 450px;
+    float: right;
+    border: 1px solid #000;
+    background-color: aliceblue;
+}
+
+.part2 h3 {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.part1 .box{
+    width: 100%;
+    /* margin: auto; */
+ 
+    
+}
+.box .welcome_back{
+width: 50%;
+float: left;
+height: 450px;
+background-color:#fe483d;
+
+padding: 30px;
+border-radius: 10px;
+}
+.box .create_account{
+
+    width: 50%;
+    float: right;
+    height: 450px;
+    background-color: rgb(236, 233, 230);
+    padding: 30px;
+    border-radius: 10px;
+}
+.welcome_back h1{
+    color: white;
+    padding-bottom: 5px;
+    font-size: auto;
+}
+.welcome_back p{
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+.welcome_back button{
+padding: 5px;
+width: 70%;
+margin-left: 15px;
+border-radius: 5px;
+margin-top: 5px;
+cursor: pointer;
+}
+
+
+.create_account h1{
+margin-left: 13px;
+}
+.create_account img{
+ width: 50px;
+ padding: 5px;
+ margin-left: 15px;
+}
+.create_account h4{
+margin: 5px 5px;
+margin-left: 15px;
+}
+
+.create_account input[type=text]{
+    width: 100%;
+margin: 5px;
+padding: 5px;
+border-radius: 10px;
+}
+.create_account input[type=password]{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.create_account button{
+border-radius: 10px;
+width: 40%;
+margin-left: 92px;
+padding: 10px;
+color: white;
+background-color: #fe483d;
+cursor: pointer;
+}
+
+.links {
+    cursor: pointer;
+}

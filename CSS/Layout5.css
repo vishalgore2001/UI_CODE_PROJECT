@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contenar{
+    width: 60%;
+    min-height: 200px;
+    border: 1px solid #000;
+    margin: auto;
+}
+.main_header{
+    width: 100%; 
+    
+    height: 100px;
+}
+.main_header .logo{ 
+    width: 49%;
+    height: 80px;
+    background-color: #CFD3D1;
+    float: left;
+
+}
+.main_header .menu{
+    width: 49%;
+    height: 80px;
+    background-color: #CFD3D1;
+    float: right;
+    padding-top: 25px;
+}
+.logo h1{
+    padding: 12px;
+}
+.menu a{
+padding: 20px;
+text-decoration: none;
+color: black
+}
+.menu a:hover{
+    background-color: aqua;
+}
+.main_product_div{
+    width: 100%;
+    min-height: 200px;
+
+}
+.main_product_div .row{
+    width: 100%;
+    min-height: 250px;
+    border: 1px solid #000;
+}
+.main_product_div .row .prod{
+    width: 24%;
+    min-height: 100px;
+    float: left;
+    border: 1px solid #000;
+}
+.prod img{
+    width: 100%;
+}
+.fotter{
+    width: 100%;
+    height: 100px;
+    margin-top: 5px;
+    background-color: lightslategrey;
+    padding-top: 40px;
+}
+
+.offerprod{
+    width: 100%;
+    min-height: 100px;
+}
+
+
+.fotter p{
+    text-align: center;
+}

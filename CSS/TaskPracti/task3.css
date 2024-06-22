@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    min-height: 500px;
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  
+
+}
+.container .box{
+    width: 80%;
+    min-height: 500px;
+    /* margin: auto; */
+    margin: 100px;
+ 
+    
+}
+.box .welcome_back{
+width: 50%;
+float: left;
+height: 500px;
+background-color:#fe483d;
+
+padding: 130px;
+border-radius: 10px;
+}
+.box .create_account{
+
+    width: 50%;
+    float: right;
+    height: 500px;
+    background-color: rgb(236, 233, 230);
+    
+    padding: 100px;
+    border-radius: 10px;
+}
+.welcome_back h1{
+    color: white;
+    padding-bottom: 5px;
+}
+.welcome_back p{
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+.welcome_back button{
+padding: 10px;
+width: 70%;
+margin-left: 30px;
+border-radius: 10px;
+margin-top: 25px;
+cursor: pointer;
+}
+
+
+
+.create_account h1{
+margin-left: 25px;
+}
+.create_account img{
+ width: 50px;
+ padding: 10px;
+ margin-left: 25px;
+}
+.create_account h4{
+margin: 5px 5px;
+margin-left: 25px;
+}
+
+.create_account input[type=text]{
+    width: 100%;
+margin: 10px;
+padding: 10px;
+border-radius: 10px;
+}
+.create_account input[type=password]{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.create_account button{
+border-radius: 10px;
+width: 40%;
+margin-left: 92px;
+padding: 10px;
+color: white;
+background-color: #fe483d;
+cursor: pointer;
+}
+
+.links {
+    cursor: pointer;
+}
+
+
